@@ -1,0 +1,26 @@
+{
+  "sources": [
+    {
+      "id": "593a4387-7a68-4b59-b8ca-daeefcc77cc7",
+      "name": "ugrerh",
+      "type": "CustomEndpoint",
+      "properties": {}
+    }
+  ],
+  "destinations": [],
+  "streams": [
+    {
+      "id": "e769bd5b-01ba-4c83-b3a0-99a117783ace",
+      "name": "hello-stream",
+      "type": "DefaultStream",
+      "properties": {},
+      "inputNodes": [
+        {
+          "name": "ugrerh"
+        }
+      ]
+    }
+  ],
+  "operators": [],
+  "compatibilityLevel": "1.0"
+}

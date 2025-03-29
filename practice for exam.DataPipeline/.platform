@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "DataPipeline",
+    "displayName": "practice for exam"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "5825cb60-5fb2-999b-40b5-085b59e53ef8"
+  }
+}

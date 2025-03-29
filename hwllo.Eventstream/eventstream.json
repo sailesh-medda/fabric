@@ -1,0 +1,50 @@
+{
+  "sources": [
+    {
+      "id": "0dc25294-22ab-47d1-887e-54d1149db53d",
+      "name": "test",
+      "type": "CustomEndpoint",
+      "properties": {}
+    }
+  ],
+  "destinations": [
+    {
+      "id": "4d536203-03c6-427d-8f75-c472c5c30094",
+      "name": "test123",
+      "type": "Lakehouse",
+      "properties": {
+        "workspaceId": "67de6851-8d2e-468e-924b-7294040d4f1f",
+        "itemId": "a7e66f8e-d9de-4deb-ac60-8c652b3a91cb",
+        "schema": "",
+        "deltaTable": "test123",
+        "inputSerialization": {
+          "type": "Json",
+          "properties": {
+            "encoding": "UTF8"
+          }
+        }
+      },
+      "inputNodes": [
+        {
+          "name": "hwllo-stream"
+        }
+      ],
+      "inputSchemas": []
+    }
+  ],
+  "streams": [
+    {
+      "id": "d7009738-e647-44e4-bf3c-be24783999d0",
+      "name": "hwllo-stream",
+      "type": "DefaultStream",
+      "properties": {},
+      "inputNodes": [
+        {
+          "name": "test"
+        }
+      ]
+    }
+  ],
+  "operators": [],
+  "compatibilityLevel": "1.0"
+}
